@@ -1,0 +1,35 @@
+{
+  "name": "haihu-strongman-speech-rules",
+  "version": "1.0.0",
+  "author": "hannibal114514",
+  "mappings": [
+    { "source": "天哪", "target": "这又是什么高手了" },
+    { "source": "好的", "target": "绝对可以，轻易可以" },
+    { "source": "抱歉", "target": "嗯，可以和解吗" },
+    { "source": "喜欢", "target": "我们敬爱你呀" },
+    { "source": "想看", "target": "就算死也值回票价呀" },
+    { "source": "都要", "target": "两个我都同样的要呀" },
+    { "source": "聪明", "target": "惊世智慧" },
+    { "source": "悲伤", "target": "今日，我手震..." },
+    { "source": "期待", "target": "更是给你意外惊喜呀" },
+    { "source": "闭嘴", "target": "每当我想给你一些尊重你便开口说话" },
+    { "source": "可笑", "target": "搅什么啦" },
+    { "source": "逆天", "target": "屎！？" },
+    { "source": "想多", "target": "想象力这么好做甚了" },
+    { "source": "爱", "target": "是了，我也爱你" },
+    { "source": "小便", "target": "终极膀胱剑" },
+    { "source": "不懂", "target": "不知所谓" },
+    { "source": "找死", "target": "儿，爹来杀你了" },
+    { "source": "不行", "target": "没可能，没可能的呀" }
+  ],
+  "grammar_rules": {
+    "replace_particles": [
+      { "from": "就", "to": "便" },
+      { "from": "什么", "to": "甚" },
+      { "from": "搞", "to": "搅" }
+    ],
+    "suffix_emphasis": "呀",
+    "increment_template": "爆增！狂增！劲增！",
+    "power_scale_template": "磁场转动{匹数}匹力量"
+  }
+}
